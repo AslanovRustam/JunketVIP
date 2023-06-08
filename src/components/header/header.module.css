@@ -1,4 +1,11 @@
 @import "../../vars.css";
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.4em 7.075em 0 7.075em;
+  background-color: var(--mainBg);
+  border-radius: 0.75em 0.75em 0 0;
+}
 .logoWrapper {
   display: flex;
   align-items: center;
@@ -24,24 +31,9 @@
   width: 6.41em;
   fill: var(--white);
 }
-.header {
-  display: flex;
-  justify-content: space-between;
-}
-.button {
-  padding: 0.9em 2.1em;
-  font-weight: 700;
-  font-size: 1.175em;
-  line-height: 121%;
-  border: 0.1em solid var(--gold);
-  border-radius: 0.67em;
-  color: var(--white);
-  background-color: transparent;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-.button:hover,
-.button:focus {
-  color: var(--secondTextColor);
-  background-color: var(--gold);
+@media screen and (max-width: 376px) {
+  .header {
+    padding: 1.7em;
+    font-size: 3.7em;
+  }
 }

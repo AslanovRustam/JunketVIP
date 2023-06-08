@@ -1,0 +1,49 @@
+.section {
+  padding: 0 7.075em 2.54em 7.075em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--mainBg);
+  background-image: url(../../images/bgCasino.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 27em -3em;
+  border-radius: 0 0 0.75em 0.75em;
+}
+.text {
+  max-width: 60em;
+}
+.image {
+  max-width: 51em;
+}
+.title {
+  font-weight: 100;
+  font-size: 2.9125em;
+  line-height: 120%;
+  color: var(--white);
+}
+.white {
+  font-weight: 700;
+}
+.gold {
+  font-weight: 700;
+  color: var(--gold);
+}
+.subTitle {
+  font-size: 0.94em;
+  line-height: 164%;
+  margin: 2.1375em 0;
+}
+@media screen and (max-width: 376px) {
+  .section {
+    flex-direction: column;
+    /* background-position: bottom; */
+    background-position: 23em -1em;
+    background-size: contain;
+  }
+  .text {
+    width: auto;
+    text-align: center;
+    font-size: 3em;
+  }
+}

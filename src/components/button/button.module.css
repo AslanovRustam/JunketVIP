@@ -1,0 +1,17 @@
+.button {
+  padding: 0.9em 2.1em;
+  font-weight: 700;
+  font-size: 1.175em;
+  line-height: 121%;
+  border: 0.1em solid var(--gold);
+  border-radius: 0.67em;
+  color: var(--white);
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.button:hover,
+.button:focus {
+  color: var(--secondTextColor);
+  background-color: var(--gold);
+}

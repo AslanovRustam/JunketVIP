@@ -12,19 +12,20 @@ code {
     monospace;
 }
 html {
+  box-sizing: border-box;
   font-size: 0.833vw;
   font-family: "Stolzl";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   height: 100%;
-  background-color: var(--mainBg);
+  background-color: var(--black);
   color: var(--textColor);
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: SKConcretica; */
+  font-family: "Stolzl";
   text-decoration: none;
   list-style: none;
 }
@@ -47,4 +48,49 @@ video {
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--secondary);
   transition: all 2s ease-in-out;
+}
+@font-face {
+  font-family: "Stolzl";
+  font-weight: 700;
+  src: local("Stolzl"), url(./fonts/Bold.otf);
+}
+@font-face {
+  font-family: "Stolzl";
+  font-weight: 400;
+  src: local("Stolzl"), url(./fonts/Regular.otf);
+}
+@font-face {
+  font-family: "Stolzl";
+  font-weight: 100;
+  src: local("Stolzl"), url(./fonts/Thin.otf);
+}
+@media (orientation: landscape) and (min-aspect-ratio: 1920 / 853) {
+  html {
+    font-size: 0.65vw;
+  }
+}
+@media (orientation: landscape) and (min-aspect-ratio: 15 / 7) {
+  html {
+    font-size: 0.67vw;
+  }
+}
+@media (orientation: landscape) and (min-aspect-ratio: 640 / 311) {
+  html {
+    font-size: 0.7vw;
+  }
+}
+@media (orientation: landscape) and (min-aspect-ratio: 80 / 41) {
+  html {
+    font-size: 0.73vw;
+  }
+}
+@media (orientation: landscape) and (min-aspect-ratio: 1920 / 1007) {
+  html {
+    font-size: 0.76vw;
+  }
+}
+@media (orientation: landscape) and (min-aspect-ratio: 384 / 209) {
+  html {
+    font-size: 0.8vw;
+  }
 }

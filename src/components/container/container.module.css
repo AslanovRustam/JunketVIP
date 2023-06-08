@@ -1,3 +1,8 @@
 .container {
-  padding: 3.835em 18.341em;
+  padding: 3.0675em 14.67em;
+}
+@media screen and (max-width: 376px) {
+  .container {
+    padding: 0;
+  }
 }

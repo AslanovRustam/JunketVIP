@@ -2,6 +2,7 @@ import s from "./header.module.css";
 import { ReactComponent as Logo } from "../../images/logo.svg";
 import { ReactComponent as Fairspin } from "../../images/fairspin.svg";
 import { ReactComponent as Vip } from "../../images/vipclub.svg";
+import Button from "../button/Button";
 
 export default function Header() {
   return (
@@ -13,9 +14,7 @@ export default function Header() {
           <Vip className={s.vip} />
         </div>
       </div>
-      <button type="button" className={s.button}>
-        JOIN VIP CLUB
-      </button>
+      <Button />
     </header>
   );
 }
