@@ -17,8 +17,8 @@ export default function Hero() {
         </p>
         <Button />
       </div>
-      <div className={s.image}>
-        <img src={casino} alt="casino" />
+      <div>
+        <img className={s.image} src={casino} alt="casino" />
       </div>
     </section>
   );

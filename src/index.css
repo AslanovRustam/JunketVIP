@@ -64,7 +64,7 @@ video {
   font-weight: 100;
   src: local("Stolzl"), url(./fonts/Thin.otf);
 }
-@media (orientation: landscape) and (min-aspect-ratio: 1920 / 853) {
+/* @media (orientation: landscape) and (min-aspect-ratio: 1920 / 853) {
   html {
     font-size: 0.65vw;
   }
@@ -93,4 +93,4 @@ video {
   html {
     font-size: 0.8vw;
   }
-}
+} */

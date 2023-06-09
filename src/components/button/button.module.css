@@ -10,8 +10,18 @@
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
+.gold {
+  color: var(--secondTextColor);
+  background-color: var(--gold);
+}
 .button:hover,
 .button:focus {
   color: var(--secondTextColor);
   background-color: var(--gold);
+}
+@media screen and (max-width: 376px) {
+  .button {
+    color: var(--secondTextColor);
+    background-color: var(--gold);
+  }
 }

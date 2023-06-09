@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   padding: 2.4em 7.075em 0 7.075em;
-  background-color: var(--mainBg);
+  background-color: var(--secondBg);
   border-radius: 0.75em 0.75em 0 0;
 }
 .logoWrapper {
