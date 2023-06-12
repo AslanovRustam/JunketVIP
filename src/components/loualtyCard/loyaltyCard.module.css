@@ -1,0 +1,29 @@
+.container {
+  padding: 26px 29px;
+  background-color: var(--thirdBg);
+  width: calc(100% / 3 - 3em);
+  border-radius: 0.5em;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+.image {
+  width: 3.7em;
+  height: auto;
+}
+.title,
+.score {
+  font-size: 0.94em;
+  line-height: 164%;
+}
+.title,
+.score span {
+  color: var(--white);
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 1em;
+}

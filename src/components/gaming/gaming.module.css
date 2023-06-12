@@ -36,8 +36,56 @@
 .description span {
   color: var(--gold);
 }
+.list {
+  margin-top: 2.4em;
+}
+.item {
+  display: flex;
+  align-items: center;
+}
 .item:not(:last-child) {
   margin-bottom: 1em;
   font-size: 0.95em;
   line-height: 164%;
+}
+
+.diamond {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.845em;
+  fill: var(--gold);
+}
+@media screen and (max-width: 376px) {
+  .section {
+    flex-direction: column;
+    font-size: 3.55em;
+    text-align: center;
+    background-image: none;
+    background-color: transparent;
+    margin: 0 1.45em;
+  }
+  .imgContainer {
+    order: 2;
+    padding: 5.45em 0;
+    width: 100%;
+    margin-top: 1.27em;
+    border-radius: 0.5em;
+    background-image: url(../../images/bgLock.png);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .description {
+    font-size: 1.27em;
+  }
+  .hide {
+    display: none;
+  }
+  .item,
+  .item:not(:last-child) {
+    font-size: 1.27em;
+    background: #181818;
+    border-radius: 0.5em;
+    padding: 0.7em 1.26em;
+  }
 }

@@ -42,7 +42,7 @@ export default function Experience() {
         exclusive VIP program
       </p>
       <ul className={s.list}>
-        {items.map(({ logo, title, description }, index) => (
+        {items.map(({ title, description }, index) => (
           <li className={s.item} key={title}>
             {icons[index]}
             <p className={s.itemTitle}>{title}</p>
