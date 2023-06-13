@@ -22,10 +22,38 @@
   margin-top: 1.14em;
   font-size: 0.94em;
 }
-.list {
+.list,
+.mobList {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 2em;
   padding: 3.9em 7em 0 7em;
+}
+.mobList,
+.sliderList {
+  display: none;
+}
+@media screen and (max-width: 376px) {
+  .section {
+    background-color: transparent;
+    margin: 0 5em;
+  }
+  .list {
+    display: none;
+  }
+  .mobList,
+  .sliderList {
+    display: flex;
+    position: relative;
+    /* flex-direction: column; */
+  }
+  .title {
+    font-size: 8.3em;
+  }
+  .subTitle {
+    font-size: 4.5em;
+    margin-bottom: 4em;
+    padding: 0 3em;
+  }
 }

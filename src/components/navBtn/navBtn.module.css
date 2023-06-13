@@ -1,0 +1,40 @@
+.swiperBtns {
+  /* position: absolute; */
+  top: -14em;
+  right: 0em;
+  display: flex;
+  margin: 0;
+}
+.buttons {
+  position: absolute;
+
+  display: flex;
+}
+.btnNext,
+.btnPrev {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 9.58em;
+  height: 9.58em;
+  border-radius: 1em;
+  background-color: var(--thirdBg);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btnPrev {
+  margin-right: 5.1em;
+}
+.btnNext:hover,
+.btnNext:focus,
+.btnPrev:hover,
+.btnPrev:focus {
+  background-color: var(--gold);
+}
+.arrowNext,
+.arrowPrev {
+  width: 2em;
+}
+.arrowNext {
+  transform: rotate(180deg);
+}

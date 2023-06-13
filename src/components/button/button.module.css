@@ -19,6 +19,10 @@
   color: var(--secondTextColor);
   background-color: var(--gold);
 }
+.gold:hover,
+.gold:focus {
+  background-color: var(--white);
+}
 @media screen and (max-width: 376px) {
   .button {
     color: var(--secondTextColor);

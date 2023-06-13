@@ -94,3 +94,51 @@ video {
     font-size: 0.8vw;
   }
 } */
+.lion1,
+.lion2,
+.lion3,
+.lion4,
+.lion5 {
+  width: 100%;
+  height: 0.3em;
+  filter: blur(0.1em);
+}
+.lion1 {
+  background: radial-gradient(
+    70% 60% at 50% 50%,
+    rgba(178, 190, 197, 0.8) 0%,
+    rgba(153, 145, 138, 0) 100%
+  );
+}
+.lion2 {
+  background: radial-gradient(
+    70% 60% at 50% 50%,
+    rgba(191, 148, 145, 0.8) 0%,
+    rgba(153, 145, 138, 0) 100%
+  );
+}
+.lion3 {
+  background: radial-gradient(
+    70% 60% at 50% 50%,
+    rgba(180, 180, 181, 0.8) 0%,
+    rgba(153, 145, 138, 0) 100%
+  );
+}
+.lion4 {
+  background: radial-gradient(
+    70% 60% at 50% 50%,
+    rgba(206, 165, 75, 0.8) 0%,
+    rgba(153, 145, 138, 0) 100%
+  );
+}
+.lion5 {
+  background: radial-gradient(
+    70% 60% at 50% 50%,
+    rgba(153, 145, 138, 0.48) 0%,
+    rgba(153, 145, 138, 0) 100%
+  );
+}
+.swiper,
+swiper-container {
+  position: static !important;
+}
