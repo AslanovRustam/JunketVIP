@@ -1,0 +1,65 @@
+.section {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2.4em;
+  padding: 0 7.075em;
+  border-radius: 0.75em;
+  background-color: var(--secondBg);
+  background-image: url(../../images/bonusBg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.text {
+  width: 32em;
+}
+.title {
+  font-size: 2.3475em;
+  font-weight: 100;
+  line-height: 120%;
+  color: var(--white);
+}
+.gold {
+  font-weight: 400;
+  color: var(--gold);
+}
+.white {
+  font-weight: 400;
+}
+.subTitle {
+  margin: 2.4175em 0;
+  font-size: 0.94em;
+  line-height: 121%;
+}
+.imageContainer {
+  width: 34.8em;
+  margin-top: 8.3em;
+}
+@media screen and (max-width: 376px) {
+  .section {
+    flex-direction: column;
+    font-size: 3.55em;
+    margin: 2.4em 2em 0 2em;
+    padding: 4.5em 1em;
+  }
+  .imageContainer {
+    width: auto;
+    margin-top: 1.4em;
+  }
+  .text {
+    width: auto;
+    text-align: center;
+  }
+  .title {
+    padding: 0 0.5em;
+  }
+  .subTitle {
+    font-size: 1.275em;
+  }
+  .btnMob {
+    position: absolute;
+    bottom: 4em;
+    right: 8em;
+  }
+}

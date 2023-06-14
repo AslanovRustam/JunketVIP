@@ -1,14 +1,16 @@
 .swiperBtns {
-  /* position: absolute; */
+  position: absolute;
   top: -14em;
   right: 0em;
   display: flex;
+  align-items: center;
   margin: 0;
 }
 .buttons {
-  position: absolute;
-
+  /* position: absolute; */
+  /* top: 0; */
   display: flex;
+  margin-left: 24em;
 }
 .btnNext,
 .btnPrev {
@@ -37,4 +39,17 @@
 }
 .arrowNext {
   transform: rotate(180deg);
+}
+.titleContainer {
+  display: flex;
+  align-items: center;
+}
+.image {
+  width: 7.68em;
+}
+.title {
+  margin-left: 0.4em;
+  font-size: 4.48em;
+  line-height: 141%;
+  color: var(--white);
 }

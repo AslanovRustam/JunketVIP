@@ -1,0 +1,87 @@
+.section {
+  display: flex;
+  margin-top: 2.4em;
+  border-radius: 0.75em;
+  padding: 4.14em 7.075em 4.14em 7.075em;
+  background-color: var(--secondBg);
+}
+.bgContainer {
+  padding: 1.6em;
+  width: 38.5em;
+  height: 23.32em;
+  background-color: var(--secondTextColor);
+}
+.playerContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../images/playerBg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6.6em;
+  height: 6.6em;
+  border-color: transparent;
+  border-radius: 50%;
+  background: rgba(235, 190, 125, 0.8);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.image {
+  width: 1.7em;
+  margin-left: 0.4em;
+}
+.btn:hover,
+.btn:focus {
+  background: rgba(244, 242, 238, 0.8);
+}
+.text {
+  width: 50%;
+  padding: 2em 5.2em;
+}
+.title {
+  font-size: 2.34em;
+  line-height: 120%;
+  color: var(--white);
+}
+.white {
+  font-weight: 700;
+}
+.gold {
+  font-weight: 700;
+  color: var(--gold);
+}
+.subtitle {
+  margin-top: 2.15em;
+  font-size: 0.93em;
+  line-height: 141%;
+}
+@media screen and (max-width: 376px) {
+  .section {
+    flex-direction: column;
+    font-size: 2.8em;
+    padding: 0 2.1em;
+    background: linear-gradient(180deg, #131313 0%, rgba(19, 19, 19, 0) 100%);
+    border-radius: 16px;
+  }
+  .text {
+    width: auto;
+    text-align: center;
+    padding: 2em 4.3em;
+  }
+  .bgContainer {
+    order: 1;
+  }
+  .title {
+    font-size: 3em;
+  }
+  .subtitle {
+    font-size: 1.6em;
+    margin-top: 1.15em;
+  }
+}
