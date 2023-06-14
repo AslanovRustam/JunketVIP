@@ -6,6 +6,7 @@ import Gaming from "./components/gaming/Gaming";
 import Loyalty from "./components/loyalty/Loyalty";
 import Video from "./components/video/Video";
 import Bonus from "./components/bonus/Bonus";
+import Games from "./components/games/Games";
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
         <Loyalty />
         <Video />
         <Bonus />
+        <Games />
       </Container>
     </>
   );

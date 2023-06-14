@@ -67,7 +67,7 @@
     font-size: 2.8em;
     padding: 0 2.1em;
     background: linear-gradient(180deg, #131313 0%, rgba(19, 19, 19, 0) 100%);
-    border-radius: 16px;
+    border-radius: 1em;
   }
   .text {
     width: auto;
