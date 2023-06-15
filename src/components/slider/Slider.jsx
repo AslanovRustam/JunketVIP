@@ -10,6 +10,8 @@ import company3 from "../../images/comp/company3.png";
 import company4 from "../../images/comp/company4.png";
 import company5 from "../../images/comp/company5.png";
 import company6 from "../../images/comp/company6.png";
+import NextButton from "./NextBtn";
+import PrevButton from "./PrevBtn";
 
 const items = [
   { logo: company1, title: "Pragmatic Play" },
@@ -32,26 +34,31 @@ export default function Slider() {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  }, [viewportWidth]);
   return (
-    <section>
+    <section className={s.sectionSlider}>
       <Swiper
         spaceBetween={16}
-        navigation={true}
+        // navigation={true}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
         }}
         modules={[Navigation]}
-        slidesPerView={viewportWidth < 376 ? 1.2 : 5}
+        slidesPerView={viewportWidth < 376 ? 1.5 : 6}
       >
         <ul className={s.mobList}>
           {items.map(({ logo, title }) => (
             <SwiperSlide key={title}>
-              <img src={logo} alt={title} />
+              <li className={s.mobItem}>
+                <img className={s.image} src={logo} alt={title} />
+                <p>{title}</p>
+              </li>
             </SwiperSlide>
           ))}
         </ul>
+        <PrevButton />
+        <NextButton />
       </Swiper>
     </section>
   );

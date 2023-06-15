@@ -1,3 +1,65 @@
-section {
+.sectionSlider {
   position: relative;
+  margin-top: 4.62em;
+  background-color: var(--thirdBg);
+  padding: 1.34em 2.814em;
+  border-radius: 0.5em;
+}
+
+.mobItem {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 10.7em;
+  height: 5.35em;
+  border-radius: 0.5em;
+  background-color: var(--fifthBg);
+}
+.image {
+  margin-bottom: 1em;
+  max-width: 5.875em;
+  max-height: 2.6875em;
+}
+.mobItem p {
+  position: absolute;
+  bottom: 0;
+  font-size: 0.54em;
+  line-height: 288%;
+  color: #bebfc1;
+}
+
+.arrow {
+  width: 1em;
+}
+
+.prevBtn {
+  position: absolute;
+  left: 0.7em;
+  top: 3.2em;
+  cursor: pointer;
+}
+.nextBtn {
+  position: absolute;
+  left: 74.6em;
+  top: 2.8em;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 376px) {
+  .sectionSlider {
+    margin-top: 2.62em;
+  }
+  .prevBtn {
+    top: 4.48em;
+  }
+  .nextBtn {
+    left: 29.6em;
+    top: 3.92em;
+  }
+  .mobItem {
+    font-size: 1.4em;
+  }
 }
