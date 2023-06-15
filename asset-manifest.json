@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/JunketVIP/static/css/main.b35d196f.css",
+    "main.js": "/JunketVIP/static/js/main.1e1c8861.js",
+    "static/media/bgLock.png": "/JunketVIP/static/media/bgLock.72ff17a8236d46d934d7.png",
+    "static/media/casino.png": "/JunketVIP/static/media/casino.405417961e7e5db41758.png",
+    "static/media/bonus.png": "/JunketVIP/static/media/bonus.54b3dcf889e5c1445966.png",
+    "static/media/bonusBg.png": "/JunketVIP/static/media/bonusBg.4d834b601a2e24ac8999.png",
+    "static/media/lock.png": "/JunketVIP/static/media/lock.73a81c913dcc951f39af.png",
+    "static/media/playerBg.png": "/JunketVIP/static/media/playerBg.a014739d028e7b19a1d6.png",
+    "static/media/bgCasino.png": "/JunketVIP/static/media/bgCasino.aba74613170acd128604.png",
+    "static/media/Regular.otf": "/JunketVIP/static/media/Regular.9603d48be34f3721c9c6.otf",
+    "static/media/Bold.otf": "/JunketVIP/static/media/Bold.e7dbff6869476c4643de.otf",
+    "static/media/Thin.otf": "/JunketVIP/static/media/Thin.1c03e95b385d1bfa668c.otf",
+    "static/media/invitationBg.png": "/JunketVIP/static/media/invitationBg.1e348d78f867cfc957f8.png",
+    "static/media/bgCard.png": "/JunketVIP/static/media/bgCard.3a56aaffdd40597e0a86.png",
+    "static/media/invitationBgMob.png": "/JunketVIP/static/media/invitationBgMob.56d3766016fed2457895.png",
+    "static/media/logo.svg": "/JunketVIP/static/media/logo.c4441e272120f7e0d191534f0ed35c1b.svg",
+    "static/media/fairspin.svg": "/JunketVIP/static/media/fairspin.724c488a5e178972368bf9776f63b382.svg",
+    "static/media/vipclub.svg": "/JunketVIP/static/media/vipclub.854cae6475ca87040b430ad097d2131c.svg",
+    "static/media/vip2.svg": "/JunketVIP/static/media/vip2.d245eeee397b981fa50b461b55741cf9.svg",
+    "static/media/promo2.svg": "/JunketVIP/static/media/promo2.b4829f6a529fcf81d56019381b1e6b09.svg",
+    "static/media/manager2.svg": "/JunketVIP/static/media/manager2.97779f9a87bc80ba5632c1c91468f4c0.svg",
+    "static/media/rewards2.svg": "/JunketVIP/static/media/rewards2.700f4f92528a03434048c00feefdc2b3.svg",
+    "index.html": "/JunketVIP/index.html",
+    "static/media/diamond.svg": "/JunketVIP/static/media/diamond.c7ea3769577dda4db17fa0f7d4e5e959.svg",
+    "main.b35d196f.css.map": "/JunketVIP/static/css/main.b35d196f.css.map",
+    "main.1e1c8861.js.map": "/JunketVIP/static/js/main.1e1c8861.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b35d196f.css",
+    "static/js/main.1e1c8861.js"
+  ]
+}
