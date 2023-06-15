@@ -92,7 +92,6 @@ export default function Games() {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-  console.log(viewportWidth);
   return (
     <section className={s.section}>
       <div className={s.games}>
