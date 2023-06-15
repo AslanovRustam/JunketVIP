@@ -44,7 +44,7 @@ export default function Slider() {
           delay: 2500,
           disableOnInteraction: false,
         }}
-        modules={[Navigation]}
+        modules={[Navigation, Autoplay]}
         slidesPerView={viewportWidth < 376 ? 1.5 : 6}
       >
         <ul className={s.mobList}>

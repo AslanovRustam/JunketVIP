@@ -1,0 +1,40 @@
+.section {
+  margin: 2.4em 0;
+  padding: 3.275em 0;
+  border-radius: 0.75em;
+  text-align: center;
+  background-image: url(../../images/invitationBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title {
+  font-size: 2.335em;
+  line-height: 120%;
+  font-weight: 100;
+  color: var(--white);
+}
+.white {
+  font-weight: 400;
+  color: var(--white);
+}
+.gold {
+  font-weight: 400;
+  color: var(--gold);
+}
+.subtitle {
+  font-size: 0.94em;
+  line-height: 141%;
+  margin: 1.15em 0;
+}
+
+@media screen and (max-width: 376px) {
+  .section {
+    font-size: 3.555em;
+    margin: 2.4em 2.1em;
+    padding: 13.2em 0;
+    background-image: url(../../images/invitationBgMob.png);
+  }
+  .subtitle {
+    font-size: 1.25em;
+  }
+}
